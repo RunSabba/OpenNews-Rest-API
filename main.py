@@ -20,7 +20,7 @@ def news(topic, from_date, to_date, language='en',api_Key='6a2297b099574b1b9ed2b
     results.append(f"TITLE\n'{article['title']}, '\nTITLE\n',{article['description']}")
   return results  
   
-print(news(topic="news",from_date="2023-8-2",to_date="2023-8-18",language="en",api_Key="6a2297b099574b1b9ed2bc269aa1d0d1"))
+print(news(topic="space",from_date="2023-8-2",to_date="2023-8-18",language="en",api_Key="6a2297b099574b1b9ed2bc269aa1d0d1"))
   
   
 
